@@ -16,7 +16,7 @@ app.use(express.static("public"));
 //mongoose.connect("mongodb://localhost:27017/todolistDB", { useNewUrlParser: true, useUnifiedTopology: true });
 
 // Connection URL for server
-mongoose.connect("mongodb+srv://admin-anas:(URL of DB", { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect("mongodb+srv://admin-anas:(URL of DB)", { useNewUrlParser: true, useUnifiedTopology: true });
 
 //Create Schema
 const itemsSchema = {
